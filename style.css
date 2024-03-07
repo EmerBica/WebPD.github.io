@@ -1,0 +1,277 @@
+* {
+	 box-sizing: border-box;
+	 scroll-behavior: smooth;
+}
+
+body{
+	  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+nav{
+	background: linear-gradient(90deg, #ffcc00 30%, #3399ff 30%) !important;
+	position: relative;
+	z-index: 999999;
+}
+
+.landing{
+	width: 100%;
+	height: 90vh;
+	background: linear-gradient(90deg, #ffcc00 30%, #3399ff 30%);
+	position: relative;
+	overflow: hidden;
+	padding-top: 5%;
+}
+
+.landing-2{
+	min-height: 540px;
+	position: relative;
+}
+
+.poster {
+	width: 100%;
+	height: 50vh;
+}
+
+.poster-2 {
+	width: 60vh;
+	height: 80vh;
+	background: url(https://cdn.pixabay.com/photo/2018/10/03/02/29/oil-3720346_960_720.jpg);
+}
+
+.landing h1{
+	font-family: 'Trocchi', serif !important; 
+	font-weight: bold !important;
+}
+
+.bg-1{
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 16%, rgba(29,210,253,0.9247899843531162) 50%, rgba(252,176,69,1) 79%);
+	width: 100%; 
+}
+
+.bg-blue{
+	background: #3399ff !important;
+}
+
+.bg-yellow{
+	background: #ffcc00 !important;
+}
+
+.text-blue{
+	color: #3399ff !important;
+}
+
+.text-yellow{
+	color: #ffcc00 !important;
+}
+
+.btn-blue{
+	color: #fff !important;
+	background-color: #3399ff !important;
+	border-color: #3399ff !important;
+}
+
+.btn-yellow{
+	color: #fff;
+	background-color: #ffcc00 !important;
+	border-color: #ffcc00 !important;
+}
+
+.textstyle p{
+	font-size: 20px; 
+	font-family: "Libre Baskerville", serif; 
+	line-height: 20px; 
+	text-align: center; text-shadow: 0 1px 1px #fff; 
+
+}
+
+
+.cursive{
+	font-family: "Great Vibes", cursive; 
+ 	line-height: 160px; font-weight: normal; 
+	text-shadow: 1px 1px 1px #000; 
+}
+
+
+.border{
+	border: 2px groove #c9c0a5 !important;
+	transition: 400ms;
+	padding: 3%;
+	background: #c9c0a5;
+	color: #7a7c7f;
+
+}
+.border:hover{
+	background: #3399ff;
+	border-radius: 10%;
+	transition: 400ms;
+	color: #000;
+}
+
+.logo{
+	width: 30px;
+}
+
+.logo-lg{
+	width: 70px;
+}
+
+.bg-2{
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/19/07/57/shaking-hands-3091906_960_720.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-3{
+	background-image: url(https://cdn.pixabay.com/photo/2016/05/18/15/08/gems-1400677_960_720.jpg);
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.bg-4{
+	background-image: url(https://cdn.pixabay.com/photo/2015/01/11/02/15/mailbox-595854_960_720.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#service-body{
+	background-image: url(https://cdn.pixabay.com/photo/2020/02/09/00/27/jusang-joint-4831639_960_720.jpg);
+	background-size: cover;
+}
+
+.about-images{
+	width: 60%;
+}
+
+.shape-bg{
+	background: #c9c9b6;
+}
+
+.shape-color{
+	color: #c9c9b6;
+	border: none;
+}
+
+.shape{
+	width: 55%;
+	height: 105vh;
+	background: #ffcc99;
+	position: relative;
+	left: 50%;
+}
+
+.shape-2{
+	width: 65%;
+	height: 85vh;
+	background: #848475;
+	position: relative;
+	left: 30%;
+}
+
+.shape-3{
+	width: 40%;
+	height: 85vh;
+	background: transparent;
+	position: relative;
+	left: 61%;
+	z-index: 10;
+}
+
+.image-shape{
+	margin-top: -75%;
+	z-index: 1;
+	position: relative;
+	left: 7%;
+}
+
+.image-shape-3{
+	object-fit:resize;
+	width: 100%;
+	height: 80vh;
+}
+
+.shape-content{
+	margin-top: -15%;
+	z-index: 999;
+	position: relative;
+	width: 80%;
+}
+
+.shape-content-2{
+	margin-top: -50%;
+	z-index: 999;
+	position: relative;
+	width: 40%;
+	box-shadow: 0px 1px 12px;
+}
+
+.shape-content-3{
+	margin-top: -58%;
+	z-index: 9;
+	position: relative;
+	width: 80%;
+}
+
+.equalizer{
+	width: 100%;
+	height: 20%;
+	background: #c9c9b6;
+	margin-top: -1%;
+	position: relative;
+	z-index: 1;
+}
+
+#message{
+	height: 30vh;
+}
+
+.darkred{
+	background: #800000;
+}
+.darkred-text{
+	color: #800000;
+}
+
+.orangemix{
+	color: #ffcc99;
+}
+
+.layout{
+	width: 33.3%;
+	height: auto;
+}
+
+.main-layout{
+	background: linear-gradient(90deg, #3399ff 50%, #ffcc00 50%); 
+}
+
+.layout-text{
+	line-height: 1.8;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.25rem;
+	word-wrap: break-word;
+	position: relative;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.layout-title{
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 1.1;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.p-border{
+	border: 9px groove black;
+	border-radius: 10%;
+}

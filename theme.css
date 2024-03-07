@@ -1,0 +1,51 @@
+.home{
+	background-color: #171717;
+	margin-bottom: 60px;
+	overflow: hidden;
+	padding: 20px 0 10px 0;
+	position: relative;
+	text-align: left;
+}
+
+.home p{
+	color: #fff;
+	display: inline-block;
+	font-size: 1.4rem;
+	font-weight: 300;
+	max-width: 800px;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+
+.home p span{
+	color: #999;
+	display: block;
+	font-size: 0.8em;
+	padding-top: 5px;
+}
+
+.home .get-started {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	text-align: right;
+}
+
+.home .get-started .btn{
+	position: relative;
+	z-index: 1;
+}
+
+.home .get-started a{
+	color: #fff;
+}
+
+.home .get-started a:not(.btn){
+	color: #777777;
+}
+
+.home .learn-more{
+	margin-left: 15px;
+	white-space: nowrap;
+	display: inline-block;
+}
